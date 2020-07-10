@@ -1,0 +1,17 @@
+.cidades-local{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cidade h2{
+  color: rgb(62, 62, 172 );
+}
+
+h3{
+  margin: 5px;
+}
+
+h2{
+  font-size: 14pt;
+}
+
+

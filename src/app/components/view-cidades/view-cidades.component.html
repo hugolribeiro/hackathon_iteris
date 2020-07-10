@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <h2>
+          {{location}}
+        </h2>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="cidades-local">
+      <h3 *ngFor='let servico of services'>
+       <mat-chip-list aria-label="Seleção de serviços">
+          <mat-chip>{{servico}}</mat-chip>
+        </mat-chip-list>
+      </h3>
+    </div>
+  </mat-expansion-panel>
+</mat-card>

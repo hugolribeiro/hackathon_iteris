@@ -1,0 +1,22 @@
+<div id="container">
+  <div class="card">
+    <img id="perfil" [src]="photo">
+
+    <div class="info">
+      <span id="name">{{name}}</span>
+      <span>{{location}}</span>
+      <p>Serviços:</p>
+      <span *ngFor='let servico of services' class="servicos">
+        {{servico}}
+
+      </span>
+      <span class="redes-sociais">
+        <img class="icones" src="../../../assets/facebook.png" alt="facebook">
+        <img class="icones" src="../../../assets/whats.png" alt="whatsapp">
+        <img class="icones" src="../../../assets/whatsapp.png" alt="email">
+      </span>
+    </div>
+  </div>
+</div>
+
+
